@@ -1,5 +1,5 @@
 # PLINK (Perfect LINKage)
-A email scheduler which scheduling based on frequently end-recipient-email checking time.
+A email scheduler which scheduling based on frequently email-checking time of end-recipient.
 
 # Prerequisite
 1. JVM 1.8+

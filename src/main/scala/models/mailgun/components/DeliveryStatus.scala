@@ -1,5 +1,15 @@
 package models.mailgun.components
 
+case class DeliveryStatus(tls: Boolean
+                          , mxHost: String
+                          , code: Int
+                          , description: String
+                          , sessionSeconds: Double
+                          , utf8: String
+                          , attemptNo: Int
+                          , message: String
+                          , certificateVerified: Boolean)
+
 /*
 "delivery-status": {
         "tls": true,
@@ -13,12 +23,3 @@ package models.mailgun.components
         "certificate-verified": true
     }
  */
-case class DeliveryStatus(tls: Boolean
-                          , mxHost: String
-                          , code: Int
-                          , description: String
-                          , sessionSeconds: Double
-                          , utf8: String
-                          , attemptNo: Int
-                          , message: String
-                          , certificateVerified: Boolean)

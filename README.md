@@ -2,8 +2,8 @@
 A email scheduler which scheduling based on frequently email-checking time of end-recipient.
 
 # Prerequisite
-1. JVM 1.8+
-2. SBT
+1. JDK 1.8+
+2. SBT (brew install sbt)
 3. Postgresql 9.x+
 
 # Test
